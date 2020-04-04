@@ -1,0 +1,507 @@
+
+
+/*font-family: 'Roboto', sans-serif;*/
+
+.container{
+    max-width: 1128px;
+    margin : 0 auto;
+}
+
+
+/*---header--------------------------------------------------------*/
+
+.top-nav{
+    position: fixed;
+    z-index: 1000;
+
+    top:0;
+    left:0;
+    right:0;
+    height : 60px;
+    padding-top: 26px;
+}
+
+.top-nav .nav-logo{
+    float: left;
+}
+
+.top-nav .nav-logo a{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-right: 635px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.top-nav .nav-logo a:hover{
+    color: #f44336;
+}
+
+
+.top-nav .nav-link{
+    float: left;
+}
+
+.top-nav .nav-link a{
+    font-family: Roboto;
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 15px;
+}
+
+.top-nav .nav-link a:hover{
+    color: #f44336;
+}
+
+
+.top-nav .nav-sns-link{
+    float: right;
+}
+
+.top-nav .nav-sns-link a{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 10px;
+}
+
+.top-nav .nav-sns-link a:hover{
+    color: #f44336;
+}
+
+/*header-content---------------------------------------------------*/
+.header-content {
+    padding-top: 207px;
+    padding-bottom: 218px;
+
+
+
+    background-image: url("../image/Rectangle_2020-03-27/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content .content-box{
+    width: 570px;
+
+}
+
+.header-content .content-box h1{
+    font-family: Roboto;
+    font-size: 53.2px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 11px;
+}
+
+.header-content .content-box p{
+    font-family: Roboto;
+    font-size: 18.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 42px;
+}
+
+.header-content .content-box a{
+    width: 179px;
+    height: 54px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14);
+    background-color: #f44336;
+    display: block;
+    line-height: 54px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*main-----------------------------------------*/
+#main{
+    max-width : 1380px;
+    padding-top: 95px;
+    padding-bottom: 80px;
+    margin : auto;
+    margin-top : -60px;
+    margin-bottom: 49px;
+    border-radius: 6px;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.14), 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+/*section class="talk-product---------------------------------------------------------------------*/
+.product-header{
+    width : 730px;
+    margin : 0 auto;
+    margin-bottom: 161px;
+    text-align: center;
+}
+
+.product-header h1{
+    font-family: Roboto;
+    font-size: 36.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c4858;
+    margin-bottom: 38px;
+}
+
+.product-header p{
+    font-family: Roboto;
+    font-size: 17.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #999999;
+}
+
+.feature{
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.feature-box{
+    width : 33.33%;
+    float:left;
+    text-align: center;
+
+
+}
+
+.feature-box img{
+    margin-bottom: 31px;
+}
+
+.feature-box h2{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c4858;
+    margin-bottom: 18px;
+}
+
+.feature-box p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: #999999;
+
+    /*background-color: #3c4858;*/
+    width : 333px;
+    margin : 0 auto;
+
+}
+
+.talk-product{
+    margin-bottom: 208px;
+}
+
+
+/*<section class="our-team">--------------------------------------------------------------------*/
+
+.our-team h1{
+    font-family: Roboto;
+    font-size: 36.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c4858;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.our-team .member{
+    text-align: center;
+}
+
+.member .member-box{
+    width : 33.33%;
+    float : left;
+}
+
+.member-box img{
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    /*box-shadow: 0 16px 30px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.3);*/
+    /*background-color: #c4c4c4;*/
+    /*margin-bottom: 32px;*/
+}
+
+.member-box h2{
+    font-family: Roboto;
+    font-size: 18.2px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c4858;
+    margin-bottom: 7px;
+}
+
+.member-box strong{
+
+    font-family: Roboto;
+    font-size: 13.6px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777777;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.member-box p{
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+    width : 330px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.member-sns-link a {
+    display: inline-block;
+    margin-right: 3px;
+    padding : 0 11px 5px;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+
+}
+
+.our-team{
+    margin-bottom: 170px;
+}
+
+/*<section class="work-with-us">--------------------------------------------------------------------------*/
+
+.work-with-us .text{
+    width : 765px;
+    margin : 0 auto;
+    text-align: center;
+
+}
+
+.text h1{
+    font-family: Roboto;
+    font-size: 36.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c4858;
+    margin-bottom: 38px;
+}
+
+.text p{
+
+    font-family: Roboto;
+    font-size: 18.2px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+    margin-bottom: 48px;
+
+}
+
+#form{
+    width : 765px;
+    margin : 0 auto;
+}
+
+#form .your-name{
+    float : left;
+    width : 50%;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+}
+
+#form .your-email{
+    float : left;
+    width : 50%;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999999;
+}
+
+#form .your-name input{
+    border : none;
+    border-bottom: 1px solid #d2d2d2;
+    width : 95%;
+}
+
+#form .your-name input:focus{
+    outline: none;
+}
+
+#form .your-email input{
+    border : none;
+    border-bottom: 1px solid #d2d2d2;
+    width : 100%;
+}
+
+#form .your-email input:focus{
+    outline: none;
+}
+
+#form .your-message{
+    float : left;
+    width : 100%;
+    margin-top: 50px;
+}
+
+#form .your-message textarea{
+    border : 0;
+    border-bottom: 1px solid #d2d2d2;
+    resize: none;
+    width : 100%;
+}
+
+#form .your-message textarea:focus{
+    outline: none;
+}
+
+button{
+    width: 148px;
+    height: 41px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.2);
+    background-color: #9c27b0;
+    text-align: center;
+    line-height: 41px;
+    margin : 0 auto;
+    display: block;
+
+    margin-top: 25px;
+}
+
+.button-text{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+/*<footer id="footer">--------------------------------------------------------*/
+
+#footer{
+    position : absolute;
+    width : 100%;
+    height : 40px;
+    top : 2640px;
+}
+
+.footer-nav{
+    float : left;
+}
+
+.footer-nav a{
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    margin-right: 5px;
+    padding: 3px 10px;
+}
+
+.footer-nav a:hover{
+    color:red;
+    border-bottom: 1px solid red;
+}
+
+
+.footer-maker {
+    float: right;
+}
+
+.footer-maker a{
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+
+
+
+
